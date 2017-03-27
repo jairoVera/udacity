@@ -1,0 +1,38 @@
+* {
+   outline: 1px solid red !important;
+}
+
+* {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing:    border-box;
+   -ms-box-sizing:     border-box;
+   box-sizing:         border-box;
+}
+
+.title {
+   font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+   font-size: 300%;
+   font-weight: 100;
+   background-color: #33BEBE;
+   color: white;
+   padding-top:    25px;
+   padding-left:   15px;
+   margin-bottom:  50px;
+}
+
+.app {
+   display: flex;
+}
+
+.screenshot {
+   margin-right: 35px;
+   max-width:   460px;
+}
+
+.description {
+   font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+   font-size: 110%;
+   font-weight: 150;
+   color:     #7C8B88;
+   max-width: 705px;
+}
